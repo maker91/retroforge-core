@@ -49,7 +49,6 @@ impl Display for MachineError {
 pub enum OutputAction {
     StartBeep,
     StopBeep,
-    DrawFrame,
 }
 
 #[derive(Debug, Copy, Clone)]
